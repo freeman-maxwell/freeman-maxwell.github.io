@@ -39,7 +39,7 @@ $(document).ready(function () {
 
     // <!-- emailjs to mail contact form data -->
     $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+        emailjs.init("MI8-JXLZxb9zY_wc_");
 
         emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
             .then(function (response) {
@@ -59,11 +59,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | Alfaizkhan Pathan";
+            document.title = "Maxwell Freeman";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Maxwell Freeman";
             $("#favicon").attr("href", "assets/images/favhand.png");
         }
     });
@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["condensed matter physics", "scanning probe microscopy", "Two-Dimensional Materials",  "musical instruments", "experimental physics", "skateboarding"],
+    strings: ["condensed matter physics", "scanning probe microscopy", "Two-Dimensional Materials",  "musical instruments", "experimental physics", "skateboarding", "PhD Student"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
