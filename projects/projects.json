@@ -3,10 +3,30 @@
     "name": "Haptic Scanning Probe Microscopy",
     "desc": "Exploring Perceived Forces for Optimal Intuition-Driven Control",
     "image": "haptic",
-    "category": "published",
+    "category": "personal",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "https://arxiv.org/abs/2207.10197",
+      "code": "https://github.com/HapticSPM"
+    }
+  },
+  {
+    "name": "QZS Vibrational Isolator",
+    "desc": "A vibrational isolator that damps low frequency vibrations from a dilution refrigerator.",
+    "image": "QZS",
+    "category": "personal",
+    "links": {
+      "view": "https://meetings.aps.org/Meeting/MAR23/Session/G00.232",
+      "code": "./assets/docs/QZS.pdf"
+    }
+  },
+  {
+    "name": "Hybrid Quantum System Progress",
+    "desc": "Experimental redesign of a hybrid rydberg-atom-microwave-cavity system",
+    "image": "DAMOP2023",
+    "category": "personal",
+    "links": {
+      "view": "https://meetings.aps.org/Meeting/DAMOP23/Session/V01.23",
+      "code": "./assets/docs/DAMOP2023.pdf"
     }
   },
   {
@@ -15,8 +35,18 @@
     "image": "daylioanalysis",
     "category": "personal",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/sppu-prep-android"
+      "view": "https://freemanmaxwell-daylio-analysis-main-jrx05g.streamlit.app/",
+      "code": "https://github.com/freemanmaxwell/Daylio-Analysis"
+    }
+  },
+  {
+    "name": "Shashibo Cube CAD Model",
+    "desc": "A CAD model of everyone's favorite toy, the shashibo cube!",
+    "image": "shashibo",
+    "category": "personal",
+    "links": {
+      "view": "https://freemanm.ax/#",
+      "code": "./docs/shashibo.zip"
     }
   }
 ]

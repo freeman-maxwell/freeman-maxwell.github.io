@@ -18,7 +18,7 @@ $(document).ready(function () {
         // scroll spy
         $('section').each(function () {
             let height = $(this).height();
-            let offset = $(this).offset().top - 200;
+            let offset = $(this).offset().top - 100; //def val 200
             let top = $(window).scrollTop();
             let id = $(this).attr('id');
 
@@ -37,23 +37,21 @@ $(document).ready(function () {
         }, 500, 'linear')
     });
 
-    // <!-- emailjs to mail contact form data -->
+    // contact form
     $("#contact-form").submit(function (event) {
+        const serviceID = 'default_service';
+        const templateID = 'contact_form';
+
         emailjs.init("MI8-JXLZxb9zY_wc_");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
+        emailjs.sendForm(serviceID, templateID, this)
+        .then(() => {
+        alert('Sent!');
+        }, (err) => {
+        alert(JSON.stringify(err));
+        });
         event.preventDefault();
     });
-    // <!-- emailjs to mail contact form data -->
-
 });
 
 document.addEventListener('visibilitychange',
@@ -71,7 +69,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["condensed matter physics", "scanning probe microscopy", "Two-Dimensional Materials",  "musical instruments", "experimental physics", "skateboarding", "PhD Student"],
+    strings: ["condensed matter physics", "scanning probe microscopy", "Two-Dimensional Materials", "experimental physics", "PhD Student", "quantum information science"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,

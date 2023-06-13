@@ -79,20 +79,11 @@
         <img draggable="false" class="tilt" src="./assets/images/profile.jpg" alt="">
     </div>
     <div class="content">
-        <h3>I'm Max Freeman <i class="fab fa-black-tie"></i></h3>
-        <span class="tag">Physics Graduate Student <i class="fas fa-mobile-alt"></i></span>
+        <h3>I'm Max Freeman</h3>
+        <span class="tag">Physics Graduate Student </span>
         <p>Full-time research intern, who will be starting my PhD in Physics in fall of 2023 at Caltech. Currently splitting my time
           between a scanning probe microscopy lab and a neutral-atom quantum computing lab. Interested in using scanning
           probe microscopy and spectroscopy techniques to research solid-state quantum information science.</p>
-        
-        <!--<p>I have 3+ years of professional experience in mobile application development including android native, Flutter & Xamarin Cross- platform. My skills includes:
-          <br>• Working knowledge with SQLite, RESTful APIs, Firebase (Authentication, Database, Storage, FCM, Crashlytics, Cloud Functions, Dynamic Links), Google Maps(routes and directions), Third-party libraries, Payment Gateway like Stipe.
-          <br>• Familiar with JIRA, Git (GitHub, Bitbucket, GitLab), SVN and CI/CD pipeline. • Working knowledge in Dart & Flutter Framework.
-          <br>•  Solid understanding of the full mobile app development life cycle.
-          <br>• Collaborating with UI and UX Designers, as well as Software Testers, to ensure that each app is presentable and in perfect working order.
-          <br>• Identify and correct bugs. Maintain quality and ensure responsiveness of applications.
-          <br>• Proofreading app code and correcting mistakes before each app is released. </p>-->
-        
         <div class="box-container">
             <div class="box">
               <p><span> age: </span> 23</p>
@@ -209,6 +200,18 @@
     <div class="container left">
       <div class="content">
         <div class="tag">
+          <h2>USQIS Summer School @ Fermilab</h2>
+        </div>
+        <div class="desc">
+            <h3>Participant</h3>
+            <p>Aug 2023</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container right">
+      <div class="content">
+        <div class="tag">
           <h2>Brar Lab @ University of Wisconsin</h2>
         </div>
         <div class="desc">
@@ -218,7 +221,7 @@
       </div>
     </div>
 
-    <div class="container right">
+    <div class="container left">
       <div class="content">
         <div class="tag">
           <h2>Saffman Lab @ University of Wisconsin</h2>
@@ -229,19 +232,6 @@
         </div>
       </div>
     </div>
-
-    <div class="container left">
-      <div class="content">
-        <div class="tag">
-          <h2>University of Wisconsin Tutoring</h2>
-        </div>
-        <div class="desc">
-            <h3>Physics Tutor</h3>
-            <p>Sep 2019 - May 2020</p>
-        </div>
-      </div>
-    </div>
-
 
 
   <div class="morebtn">
@@ -256,8 +246,10 @@
 <!-- experience section ends -->
 
 <!-- contact section starts -->
-<section class="contact" id="contact">
-  
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+ <section class="contact" id="contact">
+
   <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
 
   <div class="container">
@@ -265,32 +257,33 @@
       <div class="image-box">
         <img draggable="false" src="./assets/images/contact1.png" alt="">
       </div>
-    <form id="contact-form">
-      
-      <div class="form-group">
-        <div class="field">
-          <input type="text" name="name" placeholder="Name" required>
-          <i class='fas fa-user'></i>
+      <form id="contact-form">
+
+        <div class="form-group">
+          <div class="field">
+            <input type="text" name="name" placeholder="Name" required>
+            <i class='fas fa-user'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="email" placeholder="Email" required>
+            <i class='fas fa-envelope'></i>
+          </div>
+          <div class="field">
+            <input type="text" name="phone" placeholder="Phone">
+            <i class='fas fa-phone-alt'></i>
+          </div>
+          <div class="message">
+            <textarea placeholder="Message" name="message" required></textarea>
+            <i class="fas fa-comment-dots"></i>
+          </div>
         </div>
-        <div class="field">
-          <input type="text" name="email" placeholder="Email" required>
-          <i class='fas fa-envelope'></i>
+        <div class="button-area">
+          <button type="submit">
+            Submit <i class="fa fa-paper-plane"></i>
+          </button>
         </div>
-        <div class="field">
-          <input type="text" name="phone" placeholder="Phone">
-          <i class='fas fa-phone-alt'></i>
-        </div>
-        <div class="message">
-        <textarea placeholder="Message" name="message" required></textarea>
-        <i class="fas fa-comment-dots"></i>
-        </div>
-        </div>
-      <div class="button-area">
-        <button type="submit">
-          Submit <i class="fa fa-paper-plane"></i></button>
-      </div>
-    </form>
-  </div>
+      </form>
+    </div>
   </div>
 </section>
 <!-- contact section ends -->
