@@ -3,7 +3,7 @@
     "name": "Haptic Scanning Probe Microscopy",
     "desc": "Exploring Perceived Forces for Optimal Intuition-Driven Control",
     "image": "haptic",
-    "category": "personal",
+    "category": "research",
     "links": {
       "view": "https://arxiv.org/abs/2207.10197",
       "code": "https://github.com/HapticSPM"
@@ -13,7 +13,7 @@
     "name": "QZS Vibrational Isolator",
     "desc": "A vibrational isolator that damps low frequency vibrations from a dilution refrigerator.",
     "image": "QZS",
-    "category": "personal",
+    "category": "research",
     "links": {
       "view": "https://meetings.aps.org/Meeting/MAR23/Session/G00.232",
       "code": "./assets/docs/QZS.pdf"
@@ -23,7 +23,7 @@
     "name": "Hybrid Quantum System Progress",
     "desc": "Experimental redesign of a hybrid rydberg-atom-microwave-cavity system",
     "image": "DAMOP2023",
-    "category": "personal",
+    "category": "research",
     "links": {
       "view": "https://meetings.aps.org/Meeting/DAMOP23/Session/V01.23",
       "code": "./assets/docs/DAMOP2023.pdf"

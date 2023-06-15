@@ -20,11 +20,11 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Projects | Portfolio Alfaizkhan Pathan";
+            document.title = "Maxwell Freeman";
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Maxwell Freeman";
             $("#favicon").attr("href", "/assets/images/favhand.png");
         }
     });
